@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "dart",
+      "request": "launch",
+      "name": "firebase_authentication_project",
+      "args": ["--dart-define-from-file=env/statics.json"]
+    },
+    {
+      "type": "dart",
+      "request": "launch",
+      "flutterMode": "profile",
+      "args": ["--dart-define-from-file=env/statics.json"],
+      "name": "firebase_authentication_project (profile mode)"
+    },
+    {
+      "type": "dart",
+      "request": "launch",
+      "flutterMode": "release",
+      "args": ["--dart-define-from-file=env/statics.json"],
+      "name": "firebase_authentication_project (release mode)"
+    }
+  ]
+}
