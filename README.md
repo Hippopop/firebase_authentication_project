@@ -22,4 +22,13 @@ The project has few extra featured that was focused on.
 
 To run the project, you have to have fully functional `Flutter` environment setup. And latest version(`3.19`) of Flutter is preferred.
 
-Then just `copy` the `<ProjectDirectory>/env/statics.example.json` to `<ProjectDirectory>/env/statics.json` and you can adjust some minor things on that file. Then just `run` your Flutter app.
+> If you don't want to go through all this, there's a `.apk` file, inside the `<ProjectDirectory>/release/` folder. You can install it in your `Android` device, and test it from there!
+
+Then create your own `FirebaseProject`. And set up your `Android` app and all the credentials. And don't forget to enable these features -
+
+1. `Firebase-Authentication` -> `Email-Password Authentication`
+2. `Firebase-Authentication` -> `Google Authentication`
+
+
+Finally, just `copy` the `<ProjectDirectory>/env/statics.example.json` to `<ProjectDirectory>/env/statics.json` and you can adjust some minor things on that file. Then just `run` your Flutter app passing that file as an `environment-variable`. 
+> Environment Setup for `VSCode` is already present in the project.
